@@ -151,6 +151,17 @@ footer p {
   font-size: 0.8rem;
 }
 
+footer p span.herz {
+  display: none;
+  transition: all 5s;
+}
+
+footer p:hover span.herz {
+  display: inline;
+  transition: all 5s;
+}
+
+
 /* TEAM KARTE */
 
 .team-karte {
