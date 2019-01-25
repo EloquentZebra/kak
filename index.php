@@ -22,20 +22,19 @@
 <body>
 
     <div class="hero">
-        <div class="container">
-            <h1>Klinik am Klausenpass</h1>
+        <div class="container hero-content shadow-3">
+            <h1>Klinik am Klausenpass</h1>      
+
+            <?php include('includes/slideshow.php'); ?>
         </div>
-
-        <?php include('includes/slideshow.php'); ?>
-
     </div>
 
-    <div class="top-banner">
+    <div class="top-banner shadow-2">
         <?php include('includes/navigation.php'); ?>
     </div>
 
     <div class="main-wrapper" id="main">
-        <section class="main container shadow-1 ">
+        <section class="main container shadow-1">
             <article>
                 <h2>
                     Herzlich Willkommen bei der<br>
