@@ -38,8 +38,9 @@ body {
 }
 
 .slideshow-container {
-  width: 600px;
-  height: 400px;
+  max-width: 600px;
+  width: 100%;
+  max-height: 400px;
   margin: 1rem auto 0 auto;
   padding: 0;
   overflow: hidden;
@@ -138,6 +139,13 @@ nav a.active {
 .main:first-child {
   margin-bottom: 3rem;
 }
+
+blockquote {
+  font-size: 2rem;
+  padding-left: 0.5rem;
+}
+
+
 
 footer {
   padding-top: 1rem;

@@ -36,36 +36,18 @@
     <div class="main-wrapper" id="main">
         <section class="main container shadow-1">
             <article>
+                <blockquote>
+                    Wir begleiten Menschen auf dem Weg zur Genesung und zurück in ein aktives Leben. 
+                </blockquote>
+
                 <h2>
                     Herzlich Willkommen bei der<br>
                     <span class="kak">Klinik am Klausenpass</span>
                 </h2>
 
-                <p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi commodi minima, perferendis ab fuga nemo ipsum, ullam, temporibus inventore vel officiis. Officia sint, iure blanditiis debitis vero ex cum nobis.</span>
-                    <span>Dolores aut enim, repudiandae sequi eum, accusamus delectus minima laboriosam assumenda facilis commodi hic modi obcaecati, animi maiores blanditiis reprehenderit soluta atque aliquid, deserunt iure sapiente in expedita dolore dignissimos!</span>
-                    <span>Sapiente expedita porro ipsa cumque nisi, cupiditate, eos labore consequuntur ratione ab animi nulla, dolores nam soluta debitis odio assumenda in veniam a. Distinctio voluptatem, cum. Architecto sint ut, placeat.</span>
-                </p>
-                <p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus incidunt earum cupiditate alias in itaque quidem deserunt, omnis illum aliquid accusantium, minima aut provident iusto illo officia nobis est perspiciatis?</span>
-                    <span>Quas eveniet, quo in facilis sapiente omnis eligendi. Nemo beatae, itaque veniam, saepe alias aliquam. Quidem pariatur quisquam numquam laborum sequi esse omnis, quasi, placeat assumenda aspernatur maiores debitis qui?</span>
-                    <span>Repudiandae facilis, doloribus tempora eligendi, reiciendis illum voluptas explicabo. Ducimus, harum consequatur, facere eveniet mollitia corporis. Maiores fugit ratione nesciunt reiciendis doloribus, quibusdam voluptate perspiciatis, mollitia minus expedita quos laborum.</span>
-                </p>
-                <p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque possimus recusandae, quo quod ipsa et asperiores eveniet dolorum mollitia! Unde quae totam laborum, facilis eaque voluptatum consectetur est nulla numquam!</span>
-                    <span>Iure omnis, rerum dolore totam vel quo? Quod fugit rerum animi quos nesciunt ducimus numquam vitae! Voluptates unde, nobis perferendis optio voluptate modi repellendus illum vel. Harum minima, molestiae tempora.</span>
-                    <span>Odit iure ullam ex perferendis molestias alias aliquam asperiores, iusto quia! Quos magnam natus a commodi suscipit, sunt est blanditiis sapiente nulla qui obcaecati nihil, corporis et architecto nisi animi.</span>
-                </p>
-                <p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, velit adipisci, laudantium natus, debitis quisquam a molestias voluptates provident architecto at impedit. Doloremque reprehenderit porro, eaque vero accusamus odio maiores.</span>
-                    <span>Voluptatem assumenda, illum, modi necessitatibus voluptas tempore ducimus itaque ratione rem ea asperiores provident quia! Tempora quo, id minima. Suscipit placeat facere voluptatum vero exercitationem totam ab, pariatur necessitatibus voluptate.</span>
-                    <span>Aut inventore velit quam pariatur. Quaerat animi blanditiis eum rem maxime voluptatum, minus suscipit sunt est facere beatae asperiores mollitia, quasi laudantium assumenda deleniti minima omnis, consectetur repudiandae quisquam reiciendis.</span>
-                </p>
-                <p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus asperiores, a quaerat. Obcaecati ea dolorem perspiciatis, culpa, saepe et a consequuntur autem sit quibusdam quae totam similique repudiandae dolor ratione.</span>
-                    <span>Sequi vel magni modi ab recusandae, quisquam id quidem ipsum dignissimos amet, sed voluptatum, rerum molestias nobis iure nesciunt in voluptatem. Rerum provident tempore mollitia accusamus enim? Odio, quisquam, at!</span>
-                    <span>Architecto neque obcaecati suscipit velit maiores, labore dicta, ipsa nesciunt odio, qui repudiandae quidem cupiditate! Voluptates possimus consequuntur maiores, quod ex, molestias atque ipsum eaque repellat doloribus et eius expedita!</span>
-                </p>
+
+                <h3>Bevorstehende Anlässe</h3>
+                <img src="img/calendar.svg" alt="">
             </article>
         </section>
     
