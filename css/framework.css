@@ -40,6 +40,7 @@
 
 
 @charset "UTF-8";
+@charset "UTF-8";
 /********
  *
  * @author Jonas Grüter
@@ -131,7 +132,6 @@ body {
     background-color: var(--main-text-color);
     color: var(--color-white);
 }
-
 
 ::-moz-selection {
     background-color: var(--main-text-color);
@@ -253,7 +253,7 @@ body {
 =============================*/
 
 h1, h2, h3 {
-    letter-spacing: -0.1em;
+    letter-spacing: -0.05em;
     text-rendering: optimizeLegibility;
 }
 
@@ -474,7 +474,8 @@ a {
     transition: all 0.2s ease;
 }
 
-a:hover {
+a:hover,
+a:active {
     cursor: pointer;
     color: var(--main-color);
 }
@@ -516,40 +517,10 @@ ol ol {
 
 img {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     border-radius: 2px;
 }
 
-
-/*=============================
-  Card
-=============================*/
-
-.card {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    border: 1px solid #a7a7a7;
-    border-radius: 2px;
-}
-
-@media only screen and (max-width: 768px) {
-    .card {
-        width: 100%;
-        display: block;
-    }
-}
-
-.card .card-content {
-    margin: 0;
-    padding: 10px;
-}
-
-.card .card-image {
-    display: block;
-    height: auto;
-    width: 100%;
-}
 
 
 /*=============================
@@ -593,7 +564,7 @@ hr {
 =============================*/
 
 blockquote, q {
-    font-family: "Source Serif Pro", "Cambria", "Georgia", serif; 
+    font-family: "Cambria", "Georgia", serif; 
 }
 
 blockquote {
@@ -659,64 +630,6 @@ blockquote {
 
 .hidden {
     display: none;
-}
-
-.flex {
-    display: flex;
-}
-
-.justify-start {
-    justify-content: flex-start;
-}
-
-.justify-center {
-    justify-content: center;
-}
-
-.justify-end {
-    justify-content: flex-end;
-}
-
-.align-start {
-    align-items: flex-start;
-}
-
-.align-center {
-    align-items: center;
-}
-
-.align-end {
-    align-items: flex-end;
-}
-
-.direction-vertical {
-    flex-direction: column;
-}
-
-.direction-horizontal {
-    flex-direction: row;
-}
-
-.center {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.border-black {
-    border: 2px solid var(--color-black);
-}
-
-.border-gray {
-    border: 2px solid var(--color-grey);
-}
-
-.rounded {
-    border-radius: 2px;
-}
-
-.circle {
-    border-radius: 50%;
 }
 
 /*-----------------------------
