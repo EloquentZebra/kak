@@ -22,11 +22,11 @@
 <body>
 
     <div class="hero">
-        <div class="hero-titel shadow-2">
+        <div class="container">
             <h1>Klinik am Klausenpass</h1>
         </div>
 
-        <a onclick="scrollNav();" class="icon-up" href="#main" onclick="scrollToContent();"><img src="img/icon_up.svg" alt="Scrolle nach oben"></a>
+        <?php include('includes/slideshow.php'); ?>
 
     </div>
 

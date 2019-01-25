@@ -18,70 +18,28 @@ body {
 
 
 .hero {
-  height: 95vh;
   width: 100%;
-  background-image: url('../img/hero.jpg');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
+  background-color: var(--main-color);
+  padding: 1rem 0 1rem 0;
+}
+
+.hero h1 {
   margin: 0;
-  padding: 15vh 0 0 0;
+  padding: 0 0 1rem 0;
+  color: #fff;
 }
 
-.hero-titel {
-  width: 50%;
-  margin: 0 auto;
+.slideshow-container {
+  width: 650px;
+  margin: 0 auto 0 auto;
   padding: 0;
-  border-radius: 4px;
-  text-align: center;
-  background: white;
-  border: 4px solid var(--main-color);
 }
 
-.hero-titel h1 {
+
+.mySlides img {
+  padding: 0;
   margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-.hero .icon-up {
-  display: block;
-  position: fixed;
-  width: 5rem;
-  height: 5rem;
-  position: absolute;
-  bottom: 5rem;
-  left: calc(50% - 2.5rem);
-  animation-name: bounce;
-  animation-duration: 1s;
-  animation-fill-mode: both;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-.hero .icon-up img {
-  width: 100%;
-  height: 100%;
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-5px);
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .hero {
-    height: 90vh;
-  }
-
-  .hero-titel {
-    width: 95%;
-  }
+  line-height: 0;
 }
 
 .top-banner {
