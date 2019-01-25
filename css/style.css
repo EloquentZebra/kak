@@ -1,0 +1,326 @@
+:root {
+  --main-color: #8BC34A;
+  --background-color: #B9D0A1;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--background-color);
+  min-height: 100.2vh;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 1rem;
+    background-color: var(--background-color);
+  }
+}
+
+
+.hero {
+  height: 95vh;
+  width: 100%;
+  background-image: url('../img/hero.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  margin: 0;
+  padding: 15vh 0 0 0;
+}
+
+.hero-titel {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 4px;
+  text-align: center;
+  background: white;
+  border: 4px solid var(--main-color);
+}
+
+.hero-titel h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.hero .icon-up {
+  display: block;
+  position: fixed;
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  bottom: 5rem;
+  left: calc(50% - 2.5rem);
+  animation-name: bounce;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.hero .icon-up img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    height: 90vh;
+  }
+
+  .hero-titel {
+    width: 95%;
+  }
+}
+
+.top-banner {
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 5vh;
+  border-bottom: 4px solid var(--main-color);
+  background-color: white;
+  z-index: 999;
+}
+
+nav {
+  height: 5vh;
+
+}
+
+nav a {
+  height: 100%;
+  line-height: 5vh;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0 0.5rem 0 0.5rem;
+  font-size: 1rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: var(--main-color);
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .top-banner {
+      height: 10vh;
+    }
+
+    nav {
+      height: 10vh;
+    }
+
+    nav a {
+      height: 10vh;
+      line-height: 10vh;
+    }
+  }
+
+.main-wrapper {
+  background-color: var(--background-color);
+  padding-top: 2rem;
+  z-index: 0;
+}
+
+.main {
+  background-color: white;
+  padding: 0.4rem;
+  border-radius: 4px;
+}
+
+.main h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.main:first-child {
+  margin-bottom: 3rem;
+}
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/* TEAM KARTE */
+
+.team-karte {
+  border: 2px solid var(--main-color);
+  border-radius: 4px;
+  transition: all .2s;
+  float: left;
+  max-width: 32%;
+  margin-right: 1.33%;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .team-karte {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.team-karte:hover {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
+  transition: all .2s;
+}
+
+.team-bild {
+  background: var(--main-color);
+}
+
+.team-bild img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.team-content {
+  padding: 0.5rem;
+}
+
+.team-content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+}
+
+.team-content p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.team-mail {
+  padding: 0.5rem;
+  background-color: var(--color-light-grey);
+  border-top: 1px solid var(--color-grey);
+}
+
+.team-mail p {
+  margin: 0;
+  padding: 0;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+.team-mail p::before {
+  background-image: : url('../img/icon_mail.svg');
+  background-size: 1rem 1rem;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  content: "";
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+}
+
+.team-mail p a,
+.team-mail p a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+/* TAB */
+
+.tab {
+  position: relative;
+  margin-bottom: 1px;
+  width: 100%;
+  color: #fff;
+  overflow: hidden;
+}
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.tab label {
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  background: #333;
+  font-weight: bold;
+  line-height: 3;
+  cursor: pointer;
+}
+
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+  border: 1px solid #333;
+}
+
+.tab-content p {
+  margin: 1em;
+}
+/* :checked */
+.tab input:checked ~ .tab-content {
+  max-height: 100vh;
+  background: #fff
+}
+/* Icon */
+.tab label::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 3em;
+  height: 3em;
+  line-height: 3;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+}
+.tab input[type=checkbox] + label::after {
+  content: "+";
+}
+.tab input[type=radio] + label::after {
+  content: "\25BC";
+}
+.tab input[type=checkbox]:checked + label::after {
+  transform: rotate(315deg);
+}
+.tab input[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+}
