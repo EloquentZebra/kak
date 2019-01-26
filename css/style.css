@@ -145,7 +145,40 @@ blockquote {
   padding-left: 0.5rem;
 }
 
+.termine-wrapper {
+  background-color: white;
+  border: 2px solid var(--main-color);
+  margin-left: -5rem;
+  margin-right: -5rem;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
 
+.termine-wrapper .col h3,
+.termine-wrapper .col h4 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.termine-wrapper .col:not(.info) {
+  background: var(--color-light-grey);
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 2px solid var(--color-grey);
+  transition: all .2s;
+}
+
+.termine-wrapper .col:not(.info):hover {
+  border: 2px solid var(--main-color);
+  transition: all .2s;
+}
+
+@media only screen and (max-width: 768px) {
+  .termine-wrapper {
+    margin: 0;
+  }
+}
 
 footer {
   padding-top: 1rem;

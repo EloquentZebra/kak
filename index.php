@@ -39,15 +39,18 @@
                 <blockquote>
                     Wir begleiten Menschen auf dem Weg zur Genesung und zurück in ein aktives Leben. 
                 </blockquote>
-
+                
                 <h2>
                     Herzlich Willkommen bei der<br>
                     <span class="kak">Klinik am Klausenpass</span>
                 </h2>
 
+                <p>Auf knapp 1'300 Metern über Meer liegt die Klinik am Klausenpass. Hier gibt es Raum, um Kraft zu schöpfen, Körper und Geist zu aktivieren und sich anschliessend auf den Heimweg zu machen.</p>
+                
+                <?php include('includes/termine.php'); ?>
+                
 
-                <h3>Bevorstehende Anlässe</h3>
-                <img src="img/calendar.svg" alt="">
+
             </article>
         </section>
     
