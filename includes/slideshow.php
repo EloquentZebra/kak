@@ -1,22 +1,22 @@
 <div class="slideshow-container">
 
-<div class="mySlides fade">
+<div class="slide fade">
   <img src="img/slideshow/bild1.jpg">
 </div>
 
-<div class="mySlides fade">
+<div class="slide fade">
   <img src="img/slideshow/bild2.jpg">
 </div>
 
-<div class="mySlides fade">
-  <img src="img/slideshow/bild3.jpg">
+<div class="slide fade">
+  <img src="img/slideshow/bild3.JPG">
 </div>
 
-<div class="mySlides fade">
+<div class="slide fade">
   <img src="img/slideshow/bild4.jpg">
 </div>
 
-<div class="mySlides fade">
+<div class="slide fade">
   <img src="img/slideshow/bild5.jpg">
 </div>
 
@@ -28,7 +28,7 @@ showSlides();
 
 function showSlides() {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+  var slides = document.getElementsByClassName("slide");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
