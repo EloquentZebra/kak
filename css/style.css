@@ -129,6 +129,7 @@ nav a.active {
   background-color: white;
   padding: 0.4rem;
   border-radius: 4px;
+  margin-bottom: 3rem;
 }
 
 .main h2:first-child {
@@ -136,13 +137,36 @@ nav a.active {
   padding-top: 0;
 }
 
-.main:first-child {
-  margin-bottom: 3rem;
+.subnav a{
+  display: inline-block;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem 0 0.25rem 0.5rem;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
+  transition: all .2s;
+}
+
+.subnav a:hover {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
+  transition: all .2s;
+  border-color: #c1c1c1;
 }
 
 blockquote {
   font-size: 2rem;
   padding-left: 0.5rem;
+}
+
+a.tel {
+  color: #333;
+  text-decoration: none;
 }
 
 .termine-wrapper {

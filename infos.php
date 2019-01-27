@@ -33,7 +33,14 @@
 
     <div class="main-wrapper" id="main">
 
-        <section class="main container shadow-1 ">
+        <section class="main subnav container shadow-1" id="nav">
+          <article>
+          <a href="#infos">Allg. Informationen</a>
+          <a href="#packliste">Packliste</a>
+          </article>
+        </section>
+
+        <section class="main container shadow-1" id="infos">
             <article>
                 <h2>Informationen <span class="hide-on-mobile">zu Ihrem Aufenthalt</span></h2>
 
@@ -91,7 +98,8 @@
                     <input id="tab-1006" type="checkbox" name="tabs">
                     <label for="tab-1006">Notfallnummer</label>
                     <div class="tab-content">
-                        <p>Amira Bösch / Tassilo - 079 602 27 89</p>
+                        <p>Amira Bösch / Tassilo: <a href="tel:+41796022789" class="tel">+41 79 602 27 89</a></p>
+                        <p>Jonas Grüter / Kaa: <a href="tel:+41795088365" class="tel">+41 79 508 83 65</a></p>
                     </div>
                 </div>
 
@@ -99,7 +107,7 @@
                     <input id="tab-1007" type="checkbox" name="tabs">
                     <label for="tab-1007">Versicherung</label>
                     <div class="tab-content">
-                        <p>Ist Sache des Teilnehmers</p>
+                        <p>Ist Sache des Teilnehmenden</p>
                     </div>
                 </div>
 
@@ -107,7 +115,7 @@
 
         </section>
 
-        <section class="main container shadow-1 ">
+        <section class="main container shadow-1" id="packliste">
             <article>
                 <h2>Packliste</h2>
                 <div class="row">
@@ -173,5 +181,36 @@
 
     </div>
 
+<script src="js/jquery.js"></script>
+    <script>
+        $('a[href*="#"]')
+          .not('[href="#"]')
+          .not('[href="#0"]')
+          .click(function(event) {
+            if (
+              location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+              && 
+              location.hostname == this.hostname
+            ) {
+              var target = $(this.hash);
+              target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+              if (target.length) {
+                event.preventDefault();
+                $('html, body').animate({
+                  scrollTop: target.offset().top
+                }, 1000, function() {
+                  var $target = $(target);
+                  $target.focus();
+                  if ($target.is(":focus")) {
+                    return false;
+                  } else {
+                    $target.attr('tabindex','-1');
+                    $target.focus();
+                  };
+                });
+              }
+            }
+          });
+    </script>
 </body>
 </html>
