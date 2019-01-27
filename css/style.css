@@ -234,13 +234,23 @@ footer p:hover span.herz {
   border-radius: 4px;
   transition: all .2s;
   float: left;
-  max-width: 32%;
+  max-width: 100%;
   margin-right: 1.33%;
   margin-bottom: 1rem;
 }
 
+#kueche .team-karte {
+  width: 23.5%;
+}
+
+#team .team-karte {
+  width: 32%;
+}
+
 @media only screen and (max-width: 768px) {
-  .team-karte {
+  .team-karte,
+  #kueche .team-karte,
+  #team  .team-karte {
     max-width: 100%;
     width: 100%;
   }
