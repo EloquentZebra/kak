@@ -23,7 +23,7 @@
 
 	<div class="hero">
         <div class="container hero-content shadow-3">
-            <h1>Klinik am Klausenpass</h1>      
+            <h1><?php echo($page_name); ?></h1>      
         </div>
     </div>
 
