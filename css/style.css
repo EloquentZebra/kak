@@ -226,6 +226,12 @@ footer p:hover span.herz {
   transition: all 5s;
 }
 
+/* LOGIN */
+
+#login {
+  display: hidden;
+}
+
 
 /* TEAM KARTE */
 
