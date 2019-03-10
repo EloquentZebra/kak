@@ -1,24 +1,24 @@
 <div class="slideshow-container">
 
-<div class="slide fade">
-  <img src="img/slideshow/bild1.jpg">
-</div>
+  <div class="slide fade">
+    <img src="img/slideshow/bild1.jpg">
+  </div>
 
-<div class="slide fade">
-  <img src="img/slideshow/bild2.jpg">
-</div>
+  <div class="slide fade">
+    <img src="img/slideshow/bild2.jpg">
+  </div>
 
-<div class="slide fade">
-  <img src="img/slideshow/bild3.JPG">
-</div>
+  <div class="slide fade">
+    <img src="img/slideshow/bild3.JPG">
+  </div>
 
-<div class="slide fade">
-  <img src="img/slideshow/bild4.jpg">
-</div>
+  <div class="slide fade">
+    <img src="img/slideshow/bild4.jpg">
+  </div>
 
-<div class="slide fade">
-  <img src="img/slideshow/bild5.jpg">
-</div>
+  <div class="slide fade">
+    <img src="img/slideshow/bild5.jpg">
+  </div>
 
 </div>
 

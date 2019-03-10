@@ -1,5 +1,7 @@
 <?php
   $page_name = 'Ihr Team';
+  $page_title = $page_name;
+  $page_zitat = 'Nebst hervorragend ausgebildeten Ärzten bieten wir Ihnen Tag ein, Tag aus den höchstmöglichen Service.';
 ?>
 
 <!DOCTYPE html>
@@ -21,112 +23,100 @@
 </head>
 <body>
 
-  <div class="hero">
-        <div class="container hero-content shadow-3">
-            <h1><?php echo($page_name); ?></h1>      
-        </div>
-    </div>
+  <?php include 'includes/navigation.php'; ?>
 
-  <div class="top-banner shadow-2">
-    <?php include('includes/navigation.php'); ?>
-  </div>
+    <main class="container">
 
-  <div class="main-wrapper" id="main">
-    
-    <section class="main subnav container shadow-1" id="nav">
-          <article>
-          <a href="#kurteam">Für ihre Betreueng: das Team der KAK</a>
-          <a href="#kueche">Für Ihr leibliches Wohl: das Küchenteam</a>
-          </article>
-        </section>
+    <?php include('includes/header.php'); ?>
 
 
-    <section class="main container shadow-1" id="team">
-      <article>
-        <h2>Ihr Kurteam</h2>
-        <blockquote>Ihr persönlicher Fortschritt steht in unserem Zentrum.</blockquote>
-        <div class="team-karte">
-          <div class="team-bild">
-            <img src="img/team-placeholder.svg" alt="Placeholder">
-          </div>
-          <div class="team-content">
-            <h3>Max Mustermann</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta dolor iure, sapiente fugiat ipsa numquam ad et. Nostrum quibusdam voluptatibus vero eligendi placeat. Cumque consectetur velit, nobis ipsa suscipit dicta.</p>
-          </div>
-          <div class="team-mail">
-            <a href="#">xy@klinik-am-klausenpass.ch</a>
-          </div>
-        </div>
+    <h2>Kurteam</h2>
+    <p>«Ihr persönlicher Fortschritt steht in unserem Zentrum.»</p>
 
-        <div class="clear"></div>
+    <section class="row kl">
+
+      <article class="bg-white col-3 pc-container">
+        <h3>Iwan</h3>
+        <img src="img/personen/avatar-m.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, reiciendis non repellat doloremque exercitationem at nisi minima, animi nobis distinctio sequi perferendis rerum rem numquam dignissimos sapiente iste natus nemo.</p>
+      </article>
+
+      <article class="bg-white col-3 pc-container">
+        <h3>Katinka</h3>
+        <img src="img/personen/avatar-f.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
+        <p>Wenig Text</p>
+      </article>
+
+      <article class="bg-white col-3 pc-container">
+        <h3>Olga</h3>
+        <img src="img/personen/avatar-f.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
+        <p>Test-Text-Mit-E-Mail</p>
+        <p><a href="mailto:info@klinik-am-klausenpass.ch">info@klinik-am-klausenpass.ch</a></p>
+      </article>
+
+    </section>
+
+    <section class="row kl">
+
+      <article class="bg-white col-2 pc-container">
+        <h3>Bodgan</h3>
+        <img src="img/personen/avatar-m.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
+        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+      </article>
+
+      <article class="bg-white col-2 pc-container">
+        <h3>Igor</h3>
+        <img src="img/personen/avatar-m.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
+        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+      </article>
+
+      <article class="bg-white col-2 pc-container">
+        <h3>Kai Uwe</h3>
+        <img src="img/personen/avatar-m.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
+        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+      </article>
+
+      <article class="bg-white col-2 pc-container">
+        <h3>?</h3>
+        <img src="img/personen/avatar-m.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
+        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+      </article>
+
+    </section>
+
+    <h2>Küchencrew</h2>
+    <p>«Ihr leibliches Wohl steht an unserer ersten Stelle.»</p>
+
+    <section class="row kueche">
+
+      <article class="bg-white col-3 pc-container">
+        <h3>Tschagon</h3>
+        <img src="img/personen/tsa.jpg" alt="Emanuel Wyss / Tschagon" class="pc-img">
+        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+      </article>
+
+      <article class="bg-white col-3 pc-container">
+        <h3>Lembas</h3>
+        <img src="img/personen/avatar-m.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
+        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+      </article>
+
+      <article class="bg-white col-3 pc-container">
+        <h3>Eya</h3>
+        <img src="img/personen/avatar-f.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
+        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+      </article>
+
+    </section>
+
+    <section class="row kueche">
+      <article class="bg-white col-3 pc-container">
+        <h3>Aragorn</h3>
+        <img src="img/personen/avatar-m.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
+        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
       </article>
     </section>
 
-    <section class="main container shadow-1" id="kueche">
-      <article>
-        <h2>Ihr Küchenteam</h2>
-        <blockquote>
-          Wir kümmern uns kompetent, zuverlässig und vielseitig um ihr leibliches Wohl.
-        </blockquote>
-
-        <div class="team-karte"> <!-- Karte 1 -->
-          <div class="team-bild">
-            <img src="img/team_placeholder.svg" alt="Placeholder">
-          </div>
-          <div class="team-content">
-            <h3>Max Mustermann</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem laboriosam officia reiciendis eligendi voluptate sit at itaque, dolorem, ipsam praesentium ducimus vel, commodi delectus. Saepe quas doloribus debitis eius fuga.</p>
-          </div>
-          <div class="team-mail">
-            <p><a href="#">info@klinik-am-klausenpass.ch</a></p>
-          </div>
-        </div> <!-- Karte 1 Ende -->
-
-        <div class="team-karte"> <!-- Karte 2 -->
-          <div class="team-bild">
-            <img src="img/team_placeholder.svg" alt="Placeholder">
-          </div>
-          <div class="team-content">
-            <h3>Max Mustermann</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem laboriosam officia reiciendis eligendi voluptate sit at itaque, dolorem, ipsam praesentium ducimus vel, commodi delectus. Saepe quas doloribus debitis eius fuga.</p>
-          </div>
-          <div class="team-mail">
-            <p><a href="#">info@klinik-am-klausenpass.ch</a></p>
-          </div>
-        </div> <!-- Karte 2 Ende -->
-
-        <div class="team-karte"> <!-- Karte 3 -->
-          <div class="team-bild">
-            <img src="img/team_placeholder.svg" alt="Placeholder">
-          </div>
-          <div class="team-content">
-            <h3>Max Mustermann</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem laboriosam officia reiciendis eligendi voluptate sit at itaque, dolorem, ipsam praesentium ducimus vel, commodi delectus. Saepe quas doloribus debitis eius fuga.</p>
-          </div>
-          <div class="team-mail">
-            <p><a href="#">info@klinik-am-klausenpass.ch</a></p>
-          </div>
-        </div> <!-- Karte 3 Ende -->
-
-        <div class="team-karte"> <!-- Karte 4 -->
-          <div class="team-bild">
-            <img src="img/team_placeholder.svg" alt="Placeholder">
-          </div>
-          <div class="team-content">
-            <h3>Max Mustermann</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem laboriosam officia reiciendis eligendi voluptate sit at itaque, dolorem, ipsam praesentium ducimus vel, commodi delectus. Saepe quas doloribus debitis eius fuga.</p>
-          </div>
-          <div class="team-mail">
-            <p><a href="#">info@klinik-am-klausenpass.ch</a></p>
-          </div>
-        </div> <!-- Karte 4 Ende -->
-
-        
-        
-        <div class="clear"></div>
-
-      </article>
-    </section>
   
     <?php
       include('includes/footer.php');

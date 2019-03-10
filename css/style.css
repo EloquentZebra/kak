@@ -1,331 +1,182 @@
 :root {
-  --main-color: #8BC34A;
-  --background-color: #B9D0A1;
+  --main-color: rgba(139,195,74, 1.0);
+  --background-color: rgba(139,195,74, 0.15);
+  --height-nav: 6rem;
+  --height-first-row: 400px;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: var(--background-color);
   min-height: 100.2vh;
+  background-color: var(--background-color);
 }
 
 @media only screen and (max-width: 768px) {
   body {
     font-size: 1rem;
-    background-color: var(--background-color);
   }
 }
 
-
-.hero {
-  width: 100%;
-  background-color: var(--main-color);
-  background-image: url('../img/bg.png');
-  padding: 1rem 0 1rem 0;
-}
-
-.hero h1 {
-  margin: 0;
-  padding: 0;
-  color: #fff;
-  text-align: center;
-}
-
-.hero-content {
-  background-color: var(--main-color);
-  padding: 1rem;
-  border-radius: 12px;
-}
-
-.slideshow-container {
-  max-width: 600px;
-  width: 100%;
-  max-height: 400px;
-  margin: 1rem auto 0 auto;
-  padding: 0;
-  overflow: hidden;
-}
-
-
-.slide img {
-  padding: 0;
-  margin: 0;
-  line-height: 0;
-  max-width: 100%;
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-
-@keyframes fade {
-  00% {opacity: .4} 
-  100% {opacity: 1}
-}
-
-.top-banner {
-  position: sticky;
+.nav-wrapper {
+  height: var(--height-nav);
+  text-align: right;
+  position: fixed;
   top: 0;
   left: 0;
-  margin: 0;
-  padding: 0;
   width: 100%;
-  height: 5vh;
-  border-bottom: 4px solid var(--main-color);
-  background-color: white;
-  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 1000;
 }
 
-nav {
-  height: 5vh;
-
+.nav-wrapper .logo img {
+  height: 5rem;
+  padding-top: 1rem;
 }
 
-nav a {
-  height: 100%;
-  line-height: 5vh;
-  vertical-align: middle;
-  margin: 0;
-  padding: 0 0.5rem 0 0.5rem;
-  font-size: 1rem;
+.nav-wrapper nav a {
   display: inline-block;
+  padding-top: 2.5rem;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: var(--main-text-color);
   text-decoration: none;
-  color: #333;
+  font-weight: bold;
+}
+
+.nav-wrapper nav a:not(:first-child) {
+  margin-left: 2rem;
 }
 
 nav a:hover,
 nav a.active {
-  background-color: var(--main-color);
-  color: white;
+  border-bottom: 2px solid var(--main-color);
 }
 
 @media only screen and (max-width: 768px) {
-    
-    .top-banner {
-      height: 10vh;
-    }
-
-    nav {
-      height: 10vh;
-    }
-
-    nav a {
-      height: 10vh;
-      line-height: 10vh;
-    }
+  .nav-wrapper nav a {
+    font-size: 0.9rem;
   }
-
-.main-wrapper {
-  background-color: var(--background-color);
-  padding-top: 2rem;
-  z-index: 0;
+  .nav-wrapper nav a:not(:first-child) {
+    margin-left: 1rem;
+  }
 }
 
-.main {
-  background-color: white;
-  padding: 0.4rem;
+main {
+  padding-top: 8rem;
+}
+
+[class*="col"] {
+  padding: 0.25rem;
   border-radius: 4px;
-  margin-bottom: 3rem;
 }
 
-.main h2:first-child {
+[class*="col"] > *:first-child {
   margin-top: 0;
   padding-top: 0;
 }
 
-.subnav a{
-  display: inline-block;
-  font-size: 1rem;
-  text-decoration: none;
-  color: #333;
-  background-color: #fff;
-  border: 1px solid black;
-  border-radius: 4px;
-  padding: 0.5rem 1rem;
-  margin: 0.25rem 0 0.25rem 0.5rem;
-  border: 1px solid #c9c9c9;
-  border-radius: 4px;
+.title-text {
+  background: #fff;
+
+}
+
+.title-text-zitat {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  padding-top: 1rem;
+}
+
+
+.title-img {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  min-height: 20rem;
+}
+
+.title-img img {
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+}
+
+
+.symbolbild {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  min-height: 15rem;
+}
+
+.symbolbild img {
+  height: 100%;
+  position: absolute;
+  left: -30%;
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .symbolbild img {
+    width: 100%;
+    height: auto;
+    left: 0;
+  }
+}
+
+.pc-container {
+  padding: 0 0.25rem 0 0.25rem !important;
+  box-sizing: border-box;
+  transition: all .3s;
+}
+
+.pc-container h3 {
+  text-align: center;
+}
+
+.pc-container p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.pc-container:hover {
   box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12);
-  transition: all .2s;
+  transition: all .3s;
 }
 
-.subnav a:hover {
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
-  transition: all .2s;
-  border-color: #c1c1c1;
+.pc-container:hover .pc-img {
+  border-radius: 2px;
+  transition: all .3s;
 }
 
-blockquote {
-  font-size: 2rem;
-  padding-left: 0.5rem;
+.pc-img {
+  width: 100%;
+  border-radius: 50%;
+  transition: all .3s;
 }
 
-a.tel {
-  color: #333;
-  text-decoration: none;
-}
-
-.termine-wrapper {
-  background-color: white;
-  border: 2px solid var(--main-color);
-  margin-left: -5rem;
-  margin-right: -5rem;
-  border-radius: 8px;
-  padding: 0.5rem;
-}
-
-.termine-wrapper .col h3,
-.termine-wrapper .col h4 {
+.text-small {
+  font-size: 0.8rem;
   margin-top: 0;
   padding-top: 0;
-}
-
-.termine-wrapper .col:not(.info) {
-  background: var(--color-light-grey);
-  margin-left: 0.5rem;
-  padding: 0.5rem;
-  border-radius: 4px;
-  border: 2px solid var(--color-grey);
-  transition: all .2s;
-}
-
-.termine-wrapper .col:not(.info):hover {
-  border: 2px solid var(--main-color);
-  transition: all .2s;
-}
-
-@media only screen and (max-width: 768px) {
-  .termine-wrapper {
-    margin: 0;
-  }
 }
 
 footer {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-footer p {
-  margin: 0;
-  padding: 0;
-  text-align: center;
   font-size: 0.8rem;
+  text-align: center;
 }
 
-footer p span.herz {
+footer .herz {
   display: none;
-  transition: all 5s;
 }
 
-footer p:hover span.herz {
+footer:hover .herz {
   display: inline;
-  transition: all 5s;
-}
-
-/* LOGIN */
-
-#login {
-  display: hidden;
-}
-
-
-/* TEAM KARTE */
-
-.team-karte {
-  border: 2px solid var(--main-color);
-  border-radius: 4px;
-  transition: all .2s;
-  float: left;
-  max-width: 100%;
-  margin-right: 1.33%;
-  margin-bottom: 1rem;
-}
-
-#kueche .team-karte {
-  width: 23.5%;
-}
-
-#team .team-karte {
-  width: 32%;
-}
-
-@media only screen and (max-width: 768px) {
-  .team-karte,
-  #kueche .team-karte,
-  #team  .team-karte {
-    max-width: 100%;
-    width: 100%;
-  }
-}
-
-.team-karte:hover {
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
-  transition: all .2s;
-}
-
-.team-bild {
-  background: var(--main-color);
-}
-
-.team-bild img {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
-.team-content {
-  padding: 0.5rem;
-}
-
-.team-content h3 {
-  margin: 0;
-  padding: 0;
-  font-size: 1em;
-}
-
-.team-content p {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-.team-mail {
-  padding: 0.5rem;
-  background-color: var(--color-light-grey);
-  border-top: 1px solid var(--color-grey);
-}
-
-.team-mail p {
-  margin: 0;
-  padding: 0;
-  line-height: 1rem;
-  font-size: 1rem;
-}
-
-.team-mail p::before {
-  background-image: : url('../img/icon_mail.svg');
-  background-size: 1rem 1rem;
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
-  content: "";
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center; 
-  background-size: cover;
-}
-
-.team-mail p a,
-.team-mail p a:hover {
-  color: #333;
-  text-decoration: none;
-}
-
-@media only screen and (max-width: 1200px) {
-
 }
 
 
@@ -397,4 +248,77 @@ footer p:hover span.herz {
 }
 .tab input[type=radio]:checked + label::after {
   transform: rotateX(180deg);
+}
+
+
+.label {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.label:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.label input:checked ~ .checkmark {
+  background-color: var(--main-color);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.label .checkmark:after {
+  top: 5px;
+  left: 5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
 }

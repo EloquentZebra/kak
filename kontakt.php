@@ -1,90 +1,87 @@
 <?php
-	$page_name = 'Kontakt';
+  $page_name = 'Kontakt';
+  $page_title = $page_name;
+  $page_zitat = '«Wir begleiten Menschen auf dem Weg zur Genesung und zurück in ein aktives Leben.»';
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
-	<meta name="robots" content="index,follow"><!-- All Search Engines -->
-	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
-	<meta name="description" content="Klinik am Klausenpass - Ihr Kurhaus in der Innerschweiz">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
+  <meta name="robots" content="index,follow"><!-- All Search Engines -->
+  <meta name="googlebot" content="index,follow"><!-- Google Specific -->
+  <meta name="description" content="Klinik am Klausenpass - Ihr Kurhaus in der Innerschweiz">
 
-	<title><?php echo($page_name); ?> - Klinik am Klausenpass</title>
+  <title><?php echo $page_name; ?> - Klinik am Klausenpass</title>
 
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/framework.css">
-	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/framework.css">
+  <link rel="stylesheet" href="css/style.css?v=1.0">
 
 </head>
 <body>
 
-	<div class="hero">
-        <div class="container hero-content shadow-3">
-            <h1><?php echo($page_name); ?></h1>      
-        </div>
-    </div>
+  <?php include 'includes/navigation.php'; ?>
 
-	<div class="top-banner shadow-2">
-		<?php include('includes/navigation.php'); ?>
-	</div>
+    <main class="container">
 
-	<div class="main-wrapper" id="main">
-		<section class="main container shadow-1	">
-			<article>
-				<h2>Kontakt</h2>
+    <?php include('includes/header.php'); ?>
 
-				<form action="">
-					
-					<div class="row">
-						<div class="col">
-							<label for="Name">Name</label>
-							<input type="text" name="Name">
-						</div>
-						<div class="col">
-							<label for="Pfadiname">Pfadiname</label>
-							<input type="text" name="Pfadiname">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col">
-							<label for="E-Mail">E-Mail</label>
-							<input type="email" name="E-Mail">
-						</div>
-						<div class="col">
-							<label for="Tel">Telefon</label>
-							<input type="tel" name="Tel">
-						</div>
-					</div>
-					<div class="row">
-						<div class="col">
-							<label for="Nachricht">Nachricht</label>
-							<textarea name="Nachricht" id="Nachricht" cols="" rows="130"></textarea>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col">
-							&nbsp;
-						</div>
-						<div class="col">
-							<input type="submit" value="Absenden">
-						</div>
-					</div>
+    <section class="row">
 
-				</form>
+      <article class="col bg-white">
+        <h2 id="anmeldung">Anmeldung Wellness-Apéro</h2>
 
-			</article>
-		</section>
-	
-		<?php
-			include('includes/footer.php');
-			include('includes/scripts.php');
-		?>
+        <form action="addContactCSV.php" method="POST">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required>
 
+          <label for="pfadiname">Pfadiname</label>
+          <input type="text" name="pfadiname" id="pfadiname" required>
 
-	</div>
+          <label for="email">E-Mail-Adresse</label>
+          <input type="email" name="email" id="email" required>
+
+          <label for="tel">Telefon</label>
+          <input type="tel" name="tel" id="tel" required>
+
+          <label for="vortreff">Vortreff *</label>
+
+          <label class="label">Ich bin dabei
+            <input type="radio" name="vortreff" id="dabei" value="dabei" checked="checked">
+            <span class="checkmark"></span>
+          </label>
+
+          <label class="label">Ich bin leider nicht dabei
+            <input type="radio" name="vortreff" id="nicht-dabei" value="nicht-dabei">
+            <span class="checkmark"></span>
+          </label>
+
+          <p class="text-small">* verbindliche Anmeldung für obligatorischen Wellness-Apéro.</p>
+
+          <input type="submit">
+
+        </form>
+      </article>
+    </section>
+
+    <section class="row">
+      <article class="col bg-white">
+        <h2>Kontakt</h2>
+        <p>Sollten Sie Fragen haben, welche wir Ihnen auf dieser Internetseite nicht beantworten konnten, dann zögern Sie nicht sich bei uns zu melden.</p>
+        <p>Unsere Reception ist unter der E-Mail-Adresse <a href="mailto:tassilo@klinik-am-klausenpass.ch">tassilo@klinik-am-klausenpass.ch</a> oder unter der Nummer +41 79 602 27 89 erreichbar.</p>
+      </article>
+    </section>
+
+  </main>
+  
+    <?php
+      include('includes/footer.php');
+      include('includes/scripts.php');
+    ?>
+
 
 </body>
 </html>

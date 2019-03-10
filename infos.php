@@ -1,5 +1,7 @@
 <?php
     $page_name = 'Informationen';
+    $page_title = $page_name;
+    $page_zitat = 'Für eien sorgenfreie Vorbereitung stellen wir Ihnen hier alle benötigten Informationen bereit.';
 ?>
 
 <!DOCTYPE html>
@@ -16,32 +18,21 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/framework.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=1.0">
 
 </head>
 <body>
 
-  <div class="hero">
-        <div class="container hero-content shadow-3">
-            <h1><?php echo($page_name); ?></h1>      
-        </div>
-    </div>
+  <?php include 'includes/navigation.php'; ?>
 
-    <div class="top-banner shadow-2">
-        <?php include('includes/navigation.php'); ?>
-    </div>
+    <main class="container">
 
-    <div class="main-wrapper" id="main">
+    <?php include('includes/header.php'); ?>  
 
-        <section class="main subnav container shadow-1" id="nav">
-          <article>
-          <a href="#infos">Allg. Informationen</a>
-          <a href="#packliste">Packliste</a>
-          </article>
-        </section>
 
-        <section class="main container shadow-1" id="infos">
-            <article>
+
+        <section class="row">
+          <article class="col bg-white">
                 <h2>Informationen <span class="hide-on-mobile">zu Ihrem Aufenthalt</span></h2>
 
                 <div class="tab">
@@ -115,8 +106,8 @@
 
         </section>
 
-        <section class="main container shadow-1" id="packliste">
-            <article>
+        <section class="row">
+          <article class="col bg-white">
                 <h2>Packliste</h2>
                 <div class="row">
                     <div class="col">
@@ -177,12 +168,14 @@
             </article>
         </section>
     
+        </main>
+
         <?php
           include('includes/footer.php');
           include('includes/scripts.php');
         ?>
 
-    </div>
+    
 
 </body>
 </html>
