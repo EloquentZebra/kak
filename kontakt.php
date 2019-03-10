@@ -18,8 +18,17 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/framework.css">
-  <link rel="stylesheet" href="css/style.css?v=1.0">
+  <link rel="stylesheet" href="css/style.css?v=1.1">
 
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#8bc34a">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#8bc34a">
 </head>
 <body>
 
@@ -71,7 +80,7 @@
       <article class="col bg-white">
         <h2>Kontakt</h2>
         <p>Sollten Sie Fragen haben, welche wir Ihnen auf dieser Internetseite nicht beantworten konnten, dann zögern Sie nicht sich bei uns zu melden.</p>
-        <p>Unsere Reception ist unter der E-Mail-Adresse <a href="mailto:tassilo@klinik-am-klausenpass.ch">tassilo@klinik-am-klausenpass.ch</a> oder unter der Nummer +41 79 602 27 89 erreichbar.</p>
+        <p>Unsere Reception ist unter der E-Mail-Adresse <a href="mailto:info@klinik-am-klausenpass.ch">info@klinik-am-klausenpass.ch</a> oder unter der Nummer +41 79 602 27 89 erreichbar.</p>
       </article>
     </section>
 

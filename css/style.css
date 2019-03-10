@@ -52,6 +52,11 @@ nav a.active {
   border-bottom: 2px solid var(--main-color);
 }
 
+.show-on-mobile {
+    display: none;
+  }
+
+
 @media only screen and (max-width: 768px) {
   .nav-wrapper nav a {
     font-size: 0.9rem;
@@ -59,7 +64,12 @@ nav a.active {
   .nav-wrapper nav a:not(:first-child) {
     margin-left: 1rem;
   }
+
+  .show-on-mobile {
+    display: block;
+  }
 }
+
 
 main {
   padding-top: 8rem;

@@ -1,10 +1,11 @@
 <div class="nav-wrapper">
 	<div class="container">
-		<!--
-		<div class="pull-left logo hide-on-mobile">
-			<img src="img/logo.png" alt="Logo">
+		
+		<div class="pull-left logo">
+			<a href="index.php"><img src="img/logo.svg" alt="Logo" class="hide-on-mobile"></a>
+			<a href="index.php"><img src="img/logo-klein.svg" alt="Logo" class="show-on-mobile"></a>
 		</div>
-		-->
+		
 	  <nav class="navigation pull-right">
 	    <a href="index.php" <?=($page_name=="Home"?'class="active"':'')?>>Home</a> <!-- Aktiv-Setzung inaktiv -->
 	    <!-- <a href="team.php" <?=($page_name=="Ihr Team"?'class="active"':'')?>>Ihr Team</a> -->

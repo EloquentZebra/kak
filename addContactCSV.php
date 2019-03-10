@@ -59,7 +59,7 @@
               <p>Das einzige was Sie für diesen entspannten Abend mitbringen sollen, sind aus hygienischen Gründen ein eigenes farbiges Halstuch (auch als Pfadifoulard bekannt) sowie einen Terminplaner um Ihre individuellen Kurbausteine zu planen.</p>
               ';
           } elseif ($vortreff == 'nicht-dabei') {
-            echo '<p>Schade, dass Sie am Vortreff verhindert sind. Bitte nehmen Sie diesbezüglich mit der Kurleitung Kontakt auf (<a href="mailto:tassilo@klinik-am-klausenpass.ch">tassilo@klinik-am-klausenpass.ch</a>).</p>';
+            echo '<p>Schade, dass Sie am Vortreff verhindert sind. Bitte nehmen Sie diesbezüglich mit der Kurleitung Kontakt auf (<a href="mailto:info@klinik-am-klausenpass.ch">info@klinik-am-klausenpass.ch</a>).</p>';
           }
         ?>
 
