@@ -2,6 +2,8 @@
   $page_name = 'Kontakt';
   $page_title = $page_name;
   $page_zitat = '«Wir begleiten Menschen auf dem Weg zur Genesung und zurück in ein aktives Leben.»';
+
+
 ?>
 
 <!DOCTYPE html>
@@ -43,7 +45,7 @@
       <article class="col bg-white">
         <h2 id="anmeldung">Anmeldung Wellness-Apéro</h2>
 
-        <form action="addContactCSV.php" method="POST">
+        <form action="kontakt2.php" method="POST">
           <label for="name">Name</label>
           <input type="text" name="name" id="name" required>
 
@@ -81,6 +83,7 @@
         <h2>Kontakt</h2>
         <p>Sollten Sie Fragen haben, welche wir Ihnen auf dieser Internetseite nicht beantworten konnten, dann zögern Sie nicht sich bei uns zu melden.</p>
         <p>Unsere Reception ist unter der E-Mail-Adresse <a href="mailto:info@klinik-am-klausenpass.ch">info@klinik-am-klausenpass.ch</a> oder unter der Nummer +41 79 602 27 89 erreichbar.</p>
+        
       </article>
     </section>
 

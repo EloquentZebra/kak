@@ -2,6 +2,8 @@
   $page_name = 'Erfolgreich';
   $page_title = 'Wir haben Ihre Informationen notiert.';
   $page_zitat = '';
+  date_default_timezone_set("Europe/Zurich"); 
+  $datum = date('m/d/Y h:i:s a', time()); 
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +16,7 @@
   <meta name="googlebot" content="index,follow"><!-- Google Specific -->
   <meta name="description" content="Klinik am Klausenpass - Ihr Kurhaus in der Innerschweiz">
 
-  <title>Home - Klinik am Klausenpass</title>
+  <title><?php echo $page_name; ?> - Klinik am Klausenpass</title>
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/framework.css">
@@ -35,16 +37,19 @@
       $tel = filter_input(INPUT_POST, "tel");
       $vortreff = filter_input(INPUT_POST, "vortreff");
 
-      $output = $name . ";";
-      $output .= $pfadiname . ";";
-      $output .= $email . ";";
-      $output .= $tel . ";";
-      $output .= $vortreff . "\n";
-      //open file for output
-      $fp = fopen("contacts.csv", "a");
-      //write to the file
-      fwrite($fp, $output);
-      fclose($fp);
+      if (!empty($name)) {
+        $output = $name . ";";
+        $output .= $pfadiname . ";";
+        $output .= $email . ";";
+        $output .= $tel . ";";
+        $output .= $vortreff . ";";
+        $output .= $datum . "\n";
+        //open file for output
+        $fp = fopen("contacts.csv", "a");
+        //write to the file
+        fwrite($fp, $output);
+        fclose($fp);
+      }
     ?>
 
     <section class="row">
