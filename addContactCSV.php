@@ -55,7 +55,7 @@
           if($vortreff == 'dabei') {
             echo '
               <p>Wir freuen uns, Sie in Bälde persönlich kennen zu lernen.</p>
-              <p>Treffpunkt für den Wellness-Apéro ist am <strong>Montag, 25. März 2019</strong> um <strong>18:00 Uhr</strong> in der <strong><a href="https://maps.google.com?q=Bruderholzallee+140,+4059+Basel" target="_blank">Bruder Klaus Kirche, Bruderholzallee 140, 4059 Basel</a></strong>.</p>
+              <p>Treffpunkt für den Wellness-Apéro ist am <strong>Montag, 25. März 2019</strong> um <strong>19:00 Uhr</strong> in der <strong><a href="https://maps.google.com?q=Bruderholzallee+140,+4059+Basel" target="_blank">Bruder Klaus Kirche, Bruderholzallee 140, 4059 Basel</a></strong>.</p>
               <p>Das einzige was Sie für diesen entspannten Abend mitbringen sollen, sind aus hygienischen Gründen ein eigenes farbiges Halstuch (auch als Pfadifoulard bekannt) sowie einen Terminplaner um Ihre individuellen Kurbausteine zu planen.</p>
               ';
           } elseif ($vortreff == 'nicht-dabei') {

@@ -39,7 +39,7 @@
                     <input id="tab-1001" type="checkbox" name="tabs">
                     <label for="tab-1001">Start</label>
                     <div class="tab-content">
-                        <p>Freitag, xx. April 2019, 07:00 Uhr im <a href="https://google.com/maps?q=De-Wette+Park,+Basel">De-Wette Park</a> in Basel.</a></p>
+                        <p>Freitag, 19. April 2019, 07:00 Uhr im <a href="https://google.com/maps?q=De-Wette+Park,+Basel">De-Wette Park</a> in Basel.</a></p>
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@
                     <input id="tab-1002" type="checkbox" name="tabs">
                     <label for="tab-1002">Ende</label>
                     <div class="tab-content">
-                        <p>Samstag, xx. April 2019, ca. 17:00 Uhr im De-Wette Park</p>
+                        <p>Samstag, 27. April 2019, ca. 17:00 Uhr im De-Wette Park</p>
                         <p><i>(Anschliessend freiwilliger Kursabschluss, endet für alle um 20:00 Uhr)</i></p>
                     </div>
                 </div>
@@ -77,10 +77,9 @@
                     <label for="tab-1005">Lageradresse</label>
                     <div class="tab-content">
                         <p>
-                        Pfaidheim xy<br>
+                        Lagerhaus Tell<br>
                         Name Pfadi<br>
-                        Adresse<br>
-                        PLZ
+                        6465 Urigen
                     </p>
                     </div>
                 </div>
@@ -128,38 +127,41 @@
                             <li>SBB (Schnur, Block &amp; Bleistift</li>
                             <li>Krawatte</li>
                             <li>Pfadihemd</li>
+                            <li>Persönlicher Gegenstand (zur eigenen Vorstellung, keine Krawatte)</li>
                         </ul>
                     </div>
                     <div class="col">
-                       <h3>Grosser Rucksack</h3>
-                       <ul>
-                           <li>Pyjama</li>
-                           <li>Pullis</li>
-                           <li>T-Shirts</li>
-                           <li>Hosen (kurz &amp; lang)</li>
-                           <li>Socken</li>
-                           <li>Unterwäsche</li>
-                           <li>Sportkleidung</li>
-                           <li>Mätteli</li>
-                           <li>Schlafsack</li>
-                           <li>2 Abtrockungstücher</li>
-                           <li>Hausschuhe</li>
-                           <li>Turnschuhe</li>
-                           <li>Necessaire</li>
-                           <li>Badetuch</li>
-                           <li>Duschsachen</li>
-                           <li>Badezeug</li>
-                           <li>Spiele</li>
-                           <li>Musik / Musik-Böxli (wer hat)</li>
-                           <li>Schreibzeug</li>
-                           <li><strong>Gueti Jagd</strong></li>
-                           <li>Pfaditechnik / Thilo</li>
-                           <li>Kompass</li>
-                           <li><strong>Taschenlampe</strong></li>
-                           <li>Essgeschirr</li>
-                           <li>Fotoapparat (wer hat)</li>
-                           <li>Natel & Ladegerät</li>
-                           <li>Material für euren TN-Block</li>
+                      <h3>Grosser Rucksack</h3>
+                        <ul>
+                          <li><strong>Cudesch</strong></li>
+                          <li>Laptop inkl. Ladekabel (wer will)</li>
+                          <li>Pyjama</li>
+                          <li>Pullis</li>
+                          <li>T-Shirts</li>
+                          <li>Hosen (kurz &amp; lang)</li>
+                          <li>Socken</li>
+                          <li>Unterwäsche</li>
+                          <li>Sportkleidung</li>
+                          <li>Mätteli</li>
+                          <li>Schlafsack</li>
+                          <li>2 Abtrockungstücher</li>
+                          <li>Hausschuhe</li>
+                          <li>Turnschuhe</li>
+                          <li>Necessaire</li>
+                          <li>Badetuch</li>
+                          <li>Duschsachen</li>
+                          <li>Badezeug</li>
+                          <li>Spiele</li>
+                          <li>Musik / Musik-Böxli (wer hat)</li>
+                          <li>Schreibzeug</li>
+                          <li><strong>Gueti Jagd</strong></li>
+                          <li>Pfaditechnik / Thilo</li>
+                          <li>Kompass</li>
+                          <li><strong>Taschenlampe</strong></li>
+                          <li>Essgeschirr</li>
+                          <li>Fotoapparat (wer hat)</li>
+                          <li>Natel & Ladegerät</li>
+                          <li>Material für euren TN-Block</li>
                        </ul> 
                     </div>
                 </div>
