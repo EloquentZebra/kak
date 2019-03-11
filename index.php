@@ -1,4 +1,5 @@
 <?php
+  include('includes/vars.php');
   $page_name = 'Home';
   $page_title = 'Klinik am Klausenpass';
   $page_zitat = '«Wir begleiten Menschen auf dem Weg zur Genesung und zurück in ein aktives Leben.»';
@@ -18,7 +19,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/framework.css">
-  <link rel="stylesheet" href="css/style.css?v=1.2">
+  <link rel="stylesheet" href="css/style.css?v=<?php echo $css_version;?>">
 
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
