@@ -1,4 +1,5 @@
 <?php
+  include('includes/vars.php');
   $page_name = 'Ihr Team';
   $page_title = $page_name;
   $page_zitat = 'Nebst hervorragend ausgebildeten Ärzten bieten wir Ihnen Tag ein, Tag aus den höchstmöglichen Service.';
@@ -18,7 +19,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/framework.css">
-  <link rel="stylesheet" href="css/style.css?v=1.2">
+  <link rel="stylesheet" href="css/style.css?v=<?php echo $css_version;?>">
 
 </head>
 <body>
