@@ -1,4 +1,5 @@
 <?php
+  include('includes/vars.php');
   $page_name = 'Erfolgreich';
   $page_title = 'Wir haben Ihre Informationen notiert.';
   $page_zitat = '';
@@ -20,7 +21,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/framework.css">
-  <link rel="stylesheet" href="css/style.css?v=1.2">
+  <link rel="stylesheet" href="css/style.css?v=<?php echo $css_version;?>">
 
 </head>
 <body>
