@@ -68,7 +68,7 @@
 
         <ul>
           <li>Infektanfälligkeit</li>
-          <li>Nikton- und Alkoholgenuss</li>
+          <li>Nikotin- und Alkoholgenuss</li>
           <li>Stress</li>
           <li>Erschöpfungszuständen</li>
           <li>während und nach schweren Erkrankungen</li>
