@@ -6,6 +6,9 @@
 ?>
 
 <!DOCTYPE html>
+<!--
+  Die Klinik am Klausenpass mag dich :-*
+-->
 <html>
 <head>
   <meta charset="utf-8">
