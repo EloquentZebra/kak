@@ -113,7 +113,7 @@
     <section class="row kueche">
       <article class="bg-white col-3 pc-container">
         <h3>Aragorn</h3>
-        <img src="img/personen/avatar-m.png" alt="Robin Keller / Aragorn" class="pc-img">
+        <img src="img/personen/ara.jpg" alt="Robin Keller / Aragorn" class="pc-img">
         <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
       </article>
     </section>
