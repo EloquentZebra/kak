@@ -17,7 +17,15 @@
 
   <article class="col-7">
     <div class="title-img">
-    	<img src="<?php echo $hausbild[array_rand($hausbild)]; ?>">
+    	<img src="
+        <?php
+          if ($page_name == 'Ihr Team') {
+            echo('img/personen/familie.jpg');
+          } else {
+            echo $hausbild[array_rand($hausbild)];
+          }
+          ?>
+        ">
     </div>
 
   </article>
