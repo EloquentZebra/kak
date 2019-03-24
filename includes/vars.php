@@ -1,3 +1,3 @@
 <?php
-  $css_version = '1.2';
+  $css_version = '1.3';
  ?>
