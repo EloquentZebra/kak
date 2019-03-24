@@ -120,7 +120,7 @@
               <div class="col">
                 <h3>Tagesrucksack</h3>
                 <ul>
-                  <li><a href="#">Notfallblatt</a> mit Impfausweis-Kopie</li>
+                  <li><a href="notfallblatt.pdf">Notfallblatt</a> mit Impfausweis-Kopie</li>
                   <li>Lönsch für Freitagmittag</li>
                   <li>Trinkflasche (ganze Woche brauchbar!)</li>
                   <li>Halbtax / GA</li>
