@@ -144,13 +144,19 @@ main {
   transition: all .3s;
 }
 
+.pc-container img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .pc-container h3 {
   text-align: center;
 }
 
 .pc-container p {
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .pc-container:hover {

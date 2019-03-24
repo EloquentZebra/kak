@@ -31,28 +31,27 @@
     <?php include('includes/header.php'); ?>
 
 
-    <h2>Kurteam</h2>
+    <h2>Klinikleitung</h2>
     <p>«Ihr persönlicher Fortschritt steht in unserem Zentrum.»</p>
 
     <section class="row kl">
 
       <article class="bg-white col-3 pc-container">
         <h3>Iwan</h3>
-        <img src="img/personen/avatar-m.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, reiciendis non repellat doloremque exercitationem at nisi minima, animi nobis distinctio sequi perferendis rerum rem numquam dignissimos sapiente iste natus nemo.</p>
+        <img src="img/personen/iwan.jpg" alt="Iwan" class="pc-img">
+        <p>Gründer und heute Co-Leitung der <i>Klinik am Klausenpass</i>.</p>
       </article>
 
       <article class="bg-white col-3 pc-container">
         <h3>Katinka</h3>
-        <img src="img/personen/avatar-f.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
-        <p>Wenig Text</p>
+        <img src="img/personen/avatar-f.png" alt="Katinka" class="pc-img">
+        <p>Das Herz der Unternehmung - und Iwans Eherfrau.</p>
       </article>
 
       <article class="bg-white col-3 pc-container">
         <h3>Olga</h3>
-        <img src="img/personen/avatar-f.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
-        <p>Test-Text-Mit-E-Mail</p>
-        <p><a href="mailto:info@klinik-am-klausenpass.ch">info@klinik-am-klausenpass.ch</a></p>
+        <img src="img/personen/olga.jpg" alt="Olga" class="pc-img">
+        <p>Co-Leitung <i>Klinik am Klausenpass</i> - und Tochter von Iwan.</p>
       </article>
 
     </section>
@@ -61,26 +60,40 @@
 
       <article class="bg-white col-2 pc-container">
         <h3>Bodgan</h3>
-        <img src="img/personen/avatar-m.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
-        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+        <img src="img/personen/bogdan.jpg" alt="Bogdan" class="pc-img">
+        <p>Die erste stets helfende Hand.</p>
       </article>
 
       <article class="bg-white col-2 pc-container">
         <h3>Igor</h3>
-        <img src="img/personen/avatar-m.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
-        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+        <img src="img/personen/igor.jpg" alt="Igor" class="pc-img">
+        <p>Die zweite stets helfende Hand.</p>
       </article>
 
       <article class="bg-white col-2 pc-container">
         <h3>Kai Uwe</h3>
-        <img src="img/personen/avatar-m.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
-        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+        <img src="img/personen/kaiuwe.jpg" alt="Kai Uwe" class="pc-img">
+        <p>Als Olgas Ehemann mit den administrativen Angelegenheiten der <i>KaK</i> betraut.</p>
       </article>
 
       <article class="bg-white col-2 pc-container">
-        <h3>?</h3>
-        <img src="img/personen/avatar-m.png" alt="Emanuel Wyss / Tschagon" class="pc-img">
-        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+        <h3>Nathalia</h3>
+        <img src="img/personen/nathalia.jpg" alt="Nathalia" class="pc-img">
+        <p></p>
+      </article>
+
+    </section>
+
+    <h2>Pflegerteam</h2>
+
+    <section class="row pfleger">
+
+      <article class="bg-white col-9 pc-container">
+        <img src="img/personen/pfleger.jpg" alt="Pflegerteam">
+      </article>
+
+      <article class="bg-white col-2 pc-container">
+        <p>Tagein, tagaus kümmeren wir, das Pflegerteam der <i>KaK</i>, uns kompetent um ihre Wünsche, Befinden und Anliegen.</p>
       </article>
 
     </section>
@@ -91,20 +104,20 @@
     <section class="row kueche">
 
       <article class="bg-white col-3 pc-container">
-        <h3>Tschagon</h3>
-        <img src="img/personen/tsa.jpg" alt="Emanuel Wyss / Tschagon" class="pc-img">
-        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
-      </article>
-
-      <article class="bg-white col-3 pc-container">
         <h3>Lembas</h3>
         <img src="img/personen/avatar-m.png" alt="Jonas Schöni / Lembas" class="pc-img">
-        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+        <p>«Denk immer dran: Das Messer ist niemals schuld!»</p>
       </article>
 
       <article class="bg-white col-3 pc-container">
         <h3>Eyja</h3>
         <img src="img/personen/avatar-f.png" alt="Linda Brunner / Eyja" class="pc-img">
+        <p>«Köche machen keine Fehler, sie erfinden neue Rezepte.»</p>
+      </article>
+
+      <article class="bg-white col-3 pc-container">
+        <h3>Tschagon</h3>
+        <img src="img/personen/tsa.jpg" alt="Emanuel Wyss / Tschagon" class="pc-img">
         <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
       </article>
 
@@ -114,7 +127,7 @@
       <article class="bg-white col-3 pc-container">
         <h3>Aragorn</h3>
         <img src="img/personen/ara.jpg" alt="Robin Keller / Aragorn" class="pc-img">
-        <p>«Für ihr körperliches Wohlbefinden schwinge ich nicht nur den Kochlöffel.»</p>
+        <p>«Viele Menschen haben das Essen verlernt. Sie können nur noch schlucken.»</p>
       </article>
     </section>
 
