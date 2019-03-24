@@ -77,9 +77,9 @@
       </article>
 
       <article class="bg-white col-2 pc-container">
-        <h3>Nathalia</h3>
+        <h3>Natalja</h3>
         <img src="img/personen/nathalia.jpg" alt="Nathalia" class="pc-img">
-        <p></p>
+        <p>Kümmert sich mit Igor zusammen um den firmeneigenen Nachwuchs.</p>
       </article>
 
     </section>
