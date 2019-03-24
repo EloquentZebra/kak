@@ -59,7 +59,7 @@
     <section class="row kl">
 
       <article class="bg-white col-2 pc-container">
-        <h3>Bodgan</h3>
+        <h3>Bogdan</h3>
         <img src="img/personen/bogdan.jpg" alt="Bogdan" class="pc-img">
         <p>Die erste stets helfende Hand.</p>
       </article>
