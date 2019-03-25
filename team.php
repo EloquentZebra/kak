@@ -3,6 +3,10 @@
   $page_name = 'Ihr Team';
   $page_title = $page_name;
   $page_zitat = 'Nebst hervorragend ausgebildeten Ärzten bieten wir Ihnen Tag ein, Tag aus den höchstmöglichen Service.';
+  $pflegerbild = Array(
+    'img/personen/pfleger1.jpg',
+    'img/personen/pfleger2.jpg'
+  );
 ?>
 
 <!DOCTYPE html>
@@ -89,7 +93,7 @@
     <section class="row pfleger">
 
       <article class="bg-white col-9 pc-container">
-        <img src="img/personen/pfleger.jpg" alt="Pflegerteam">
+        <img src="<?php echo $pflegerbild[array_rand($pflegerbild)]; ?>" alt="Pflegerteam">
       </article>
 
       <article class="bg-white col-2 pc-container">
