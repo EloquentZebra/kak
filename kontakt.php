@@ -40,45 +40,6 @@
 
   <section class="row">
     <article class="col bg-white">
-
-      <h2 id="anmeldung">Anmeldung Wellness-Apéro</h2>
-
-      <form action="kontakt2.php" method="POST">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" required>
-
-        <label for="pfadiname">Pfadiname</label>
-        <input type="text" name="pfadiname" id="pfadiname" required>
-
-        <label for="email">E-Mail-Adresse</label>
-        <input type="email" name="email" id="email" required>
-
-        <label for="tel">Telefon</label>
-        <input type="tel" name="tel" id="tel" required>
-
-        <label for="vortreff">Vortreff *</label>
-
-        <label class="label">Ich bin dabei
-          <input type="radio" name="vortreff" id="dabei" value="dabei" checked="checked">
-          <span class="checkmark"></span>
-        </label>
-
-        <label class="label">Ich bin leider nicht dabei
-          <input type="radio" name="vortreff" id="nicht-dabei" value="nicht-dabei">
-          <span class="checkmark"></span>
-        </label>
-
-        <p class="text-small">* verbindliche Anmeldung für obligatorischen Wellness-Apéro.</p>
-
-        <input type="submit">
-
-      </form>
-    </article>
-  </section>
-
-  <section class="row">
-    <article class="col bg-white">
-      <h2>Kontakt</h2>
       <p>Sollten Sie Fragen haben, welche wir Ihnen auf dieser Internetseite nicht beantworten konnten, dann zögern Sie nicht sich bei uns zu melden.</p>
       <p>Unsere Reception ist unter der E-Mail-Adresse <a href="mailto:info@klinik-am-klausenpass.ch">info@klinik-am-klausenpass.ch</a> oder unter der Nummer +41 79 602 27 89 erreichbar.</p>
     </article>
