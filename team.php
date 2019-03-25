@@ -111,7 +111,7 @@
 
       <article class="bg-white col-3 pc-container">
         <h3>Eyja</h3>
-        <img src="img/personen/avatar-f.png" alt="Linda Brunner / Eyja" class="pc-img">
+        <img src="img/personen/eyja.jpg" alt="Linda Brunner / Eyja" class="pc-img">
         <p>«Köche machen keine Fehler, sie erfinden neue Rezepte.»</p>
       </article>
 
