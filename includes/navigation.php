@@ -1,7 +1,7 @@
 <div class="nav-wrapper">
 	<div class="container">
 		
-		<div class="pull-left logo">
+    <div class="pull-left logo">
 			<a href="index.php"><img src="img/logo.svg" alt="Logo" class="hide-on-mobile"></a>
 			<a href="index.php"><img src="img/logo-klein.svg" alt="Logo" class="show-on-mobile"></a>
 		</div>
