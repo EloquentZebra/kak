@@ -13,13 +13,7 @@
 	    <a href="kontakt.php" <?=($page_name=="Kontakt"?'class="active"':'')?>>Kontakt</a>
 	    <a href="#modal-nav" class="navbar-toggle uk-navbar-content" data-modal-toggle="#modal-nav"></a>
 	  </nav>
-	</div>
-</div>
+	</div> <!-- Container -->
+</div> <!-- Nav Wrapper -->
 
 <div class="clear"></div>
-<!--
-
-<a href="buchen.php" id="buchen">Buchen</a>
-<a href="login.php" class="login<?=($page_name=="Login"?' active':'')?>">Login</a>
-
--->
