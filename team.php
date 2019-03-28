@@ -35,7 +35,7 @@
     <?php include('includes/header.php'); ?>
 
 
-    <h2>Klinikleitung</h2>
+    <h2 id="leitung">Klinikleitung</h2>
     <p>«Ihr persönlicher Fortschritt steht in unserem Zentrum.»</p>
 
     <section class="row kl">
@@ -88,7 +88,7 @@
 
     </section>
 
-    <h2>Pflegerteam</h2>
+    <h2 id="pfleger">Pflegerteam</h2>
 
     <section class="row pfleger">
 
@@ -102,7 +102,7 @@
 
     </section>
 
-    <h2>Küchencrew</h2>
+    <h2 id="kueche">Küchencrew</h2>
     <p>«Ihr leibliches Wohl steht an unserer ersten Stelle.»</p>
 
     <section class="row kueche">
