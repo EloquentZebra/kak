@@ -109,7 +109,7 @@
 
       <article class="bg-white col-3 pc-container">
         <h3>Lembas</h3>
-        <img src="img/personen/avatar-m.png" alt="Jonas Schöni / Lembas" class="pc-img">
+        <img src="img/personen/lembas.jpg" alt="Jonas Schöni / Lembas" class="pc-img">
         <p>«Denk immer dran: Das Messer ist niemals schuld!»</p>
       </article>
 
