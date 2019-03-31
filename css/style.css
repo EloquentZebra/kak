@@ -85,6 +85,10 @@ main {
   padding-top: 0;
 }
 
+[class*="col"] > img {
+  width: 100%;
+}
+
 .title-text {
   background: #fff;
 

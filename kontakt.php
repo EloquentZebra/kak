@@ -45,6 +45,12 @@
     </article>
   </section>
 
+  <section class="row">
+    <article class="col">
+     <img src="img/div/gruppenbild.jpg" alt="Kurleitung">
+    </article>
+  </section>
+
   </main>
   
     <?php
