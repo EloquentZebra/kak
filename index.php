@@ -125,8 +125,16 @@
         <p>Als sehr empfehlenswerte Alternative hat sich die Nutzung von Vitamin-Vitalstoffkonzentraten in Saftform als förderlich herausgestellt.</p>
       </article>
 
-      
+    </section>
 
+    <h4>Ihre Ansprechpersonen</h4>
+    <section class="row">
+      <article class="col-9">
+          <img src="img/div/ansprechperson.jpg" alt="Ansprechpreson">
+      </article>
+      <article class="col-2 bg-white">
+        <p>Olga und Kai-Uwe geben Ihnen gerne Auskunft bei noch offenen Fragen.</p>
+      </article>
     </section>
     
     <section class="row">
