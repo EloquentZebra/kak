@@ -48,7 +48,7 @@
 
       <article class="bg-white col-3 pc-container">
         <h3>Katinka</h3>
-        <img src="img/personen/avatar-f.png" alt="Katinka" class="pc-img">
+        <img src="img/personen/katinka.jpg" alt="Katinka" class="pc-img">
         <p>Das Herz der Unternehmung - und Iwans Ehefrau.</p>
       </article>
 
