@@ -55,8 +55,8 @@
             <input id="tab-1002" type="checkbox" name="tabs">
             <label for="tab-1002">Ende</label>
             <div class="tab-content">
-                <p>Samstag, 27. April 2019, ca. 17:00 Uhr im De-Wette Park</p>
-                <p><i>(Anschliessend freiwilliger Kursabschluss, endet für alle um 20:00 Uhr)</i></p>
+                <p>Samstag, 27. April 2019, ca. 16:30 Uhr im De-Wette Park</p>
+                <p><i>(Anschliessend freiwilliger Kursabschluss im <a href="https://google.com/maps?q=Sommercasino,+Basel">Soca</a>, endet für alle um 20:00 Uhr)</i></p>
             </div>
           </div>
 
