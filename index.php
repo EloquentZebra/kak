@@ -14,8 +14,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> -->
-  <meta name="robots" content="index,follow"><!-- All Search Engines -->
-  <meta name="googlebot" content="index,follow"><!-- Google Specific -->
+  <meta name="robots" content="noindex,nofollow"><!-- All Search Engines -->
+  <meta name="googlebot" content="noindex,nofollow"><!-- Google Specific -->
   <meta name="description" content="Klinik am Klausenpass - Ihr Kurhaus in der Innerschweiz">
 
   <title><?php echo $page_name; ?> - Klinik am Klausenpass</title>
