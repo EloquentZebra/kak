@@ -41,7 +41,7 @@
   <section class="row">
     <article class="col bg-white">
       <p>Sollten Sie Fragen haben, welche wir Ihnen auf dieser Internetseite nicht beantworten konnten, dann zögern Sie nicht sich bei uns zu melden.</p>
-      <p>Unsere Reception ist unter der E-Mail-Adresse <a href="mailto:info@klinik-am-klausenpass.ch">info@klinik-am-klausenpass.ch</a> oder unter der Nummer +41 79 602 27 89 erreichbar.</p>
+      <p>Unsere Reception ist unter der E-Mail-Adresse <a href="mailto:info@klinik-am-klausenpass.ch">info@klinik-am-klausenpass.ch</a> erreichbar.</p>
     </article>
   </section>
 

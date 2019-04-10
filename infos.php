@@ -93,15 +93,6 @@
           </div>
 
           <div class="tab">
-            <input id="tab-1006" type="checkbox" name="tabs">
-            <label for="tab-1006">Notfallnummer</label>
-            <div class="tab-content">
-                <p>Amira Bösch / Tassilo: <a href="tel:+41796022789" class="tel">+41 79 602 27 89</a></p>
-                <p>Jonas Grüter / Kaa: <a href="tel:+41795088365" class="tel">+41 79 508 83 65</a></p>
-            </div>
-          </div>
-
-          <div class="tab">
             <input id="tab-1007" type="checkbox" name="tabs">
             <label for="tab-1007">Versicherung</label>
             <div class="tab-content">
