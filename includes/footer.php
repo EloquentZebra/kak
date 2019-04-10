@@ -1,3 +1,3 @@
 <footer class="font-grey">
-	<p>&copy; PBS CH BS 211-19 <span class="herz">❤️</span></p>
+	<p><a href="impressum.php">&copy; PBS CH BS 211-19 <span class="herz">❤️</span></a></p>
 </footer>
